@@ -72,5 +72,16 @@ body {
     font-size: 1.4rem;
     line-height: 1.42857;
     color: #1A1A1A;
-    background-color: #FFF;
+    /*background-color: #FFF;*/
+    /*background: image_url('circuit.png');*/
+    background: image_url('223.jpg');
+}
+
+.workout-box {
+   width: 320px;
+   padding: 10px;
+   border: 5px solid gray;
+   margin: auto;
+   background-color: #FFF;
+   
 }
