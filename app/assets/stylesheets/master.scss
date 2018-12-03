@@ -14,6 +14,9 @@
   margin-top: 10px;
   margin-bottom: 15px;
   padding: 20px;
+  text-align: center;
+  font-weight: bold;
+  text-shadow: 2px 2px #ff0000;
 }
 
 .navbar {
@@ -22,6 +25,13 @@
     box-shadow: 0px 1px 3px #2a2a2a;
     margin-bottom: 0;
 }
+
+.navbar-inverse .navbar-brand {
+  color: #FFF;
+  font-family: 'chunkfiveroman', sans-serif;
+  font-size: 26px;
+ }
+
 
 header {
   border-top: 9px solid #222222;
@@ -51,4 +61,16 @@ h1 span {
   color:black;
   font-size: 25px;
   border-bottom: 1px solid #dfdfdf;
+}
+
+/*body {
+  background: image_url('circuit.png');
+}
+*/
+body {
+    font-family: "Open Sans",Helvetica,Arial,sans-serif;
+    font-size: 1.4rem;
+    line-height: 1.42857;
+    color: #1A1A1A;
+    background-color: #FFF;
 }
