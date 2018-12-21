@@ -20,7 +20,10 @@
     <ul class="navbar-nav mr-auto mt-2 mt-md-0">
       <li class="nav-item">
         <!-- <a class="nav-link" href="#">Add Workout</a> -->
-        <%= link_to 'Add Workout', new_workout_path %>
+        <%= link_to new_workout_path, class: 'nav-link' do %>
+          <i class="fa fa-plus-circle"></i>
+          Add Workout
+        <% end %>
       </li>
     </ul>
   </div>
